@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="entire-body">
+        <div class="box-one">
+            <div class="score-box"><h1 id="computerScore">Computer Score: 0</h1><h1 id="playerScore">Player Score: 0</h1><h1 id="endGame"></h1></div>
+            <div class="computer-image">
+            <img src="../rock-paper-sword/images/computer.jpg" alt="">
+            </div>
+            <div class="computer-text">
+                <h2 id="computer-voice">"You want to play, human?"</h2>
+            </div>
+        </div>
+        <div class="box-two">
+                <h1 id="play">Choose: Paper, Rock, or Sword to begin.</h1>
+        </div>
+        <div class="box-three">
+            <img onclick="myFunction('rock')"  id="choice" src="../rock-paper-sword/images/rock.png" alt="">
+            <img onclick="myFunction('paper')" src="../rock-paper-sword/images/paper.png" alt="">
+            <img onclick="myFunction('sword')" src="../rock-paper-sword/images/sword.png" alt="">
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
