@@ -19,7 +19,7 @@ function myFunction(a) {
                 document.getElementById("play").innerHTML = "Rock on Rock! Try Again!";
             } else if (genNum == 2) {
                 console.log("Rock smashes Sword! Player Wins!")
-                document.getElementById("play").innerHTML = "Sword slices Paper. Player Wins!";
+                document.getElementById("play").innerHTML = "Rock smashes Sword. Player Wins!";
                 document.getElementById("computer-voice").innerHTML = "Cannot compute.";
                 playerCount +=1;
             };
